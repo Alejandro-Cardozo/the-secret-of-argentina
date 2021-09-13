@@ -243,8 +243,8 @@
       <section class="section-stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay loop muted>
-            <source src="img/video.mp4" type="video/mp4">
-            <source src="img/video.webm" type="video/webm">
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
             Videos are not supported in your browser
           </video>
         </div>
@@ -256,7 +256,11 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img">
+              <img
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
               <figcaption class="story__caption">María Herrera</figcaption>
             </figure>
             <div class="story__text">
@@ -275,12 +279,16 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img">
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
               <figcaption class="story__caption">Jorge Gómez</figcaption>
             </figure>
             <div class="story__text">
               <h3 class="heading-tertiaty u-margin-bottom-small">
-                My life is completely different now 💪 
+                My life is completely different now 💪
               </h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
@@ -293,6 +301,40 @@
         </div>
         <div class="u-center-text u-margin-top-huge">
           <a href="#" class="btn-text">Read all stories &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Start Booking Now</h2>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="name"
+                    placeholder="Full Name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <label for="email" class="form__label">Email Address</label>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>
